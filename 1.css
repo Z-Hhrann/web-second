@@ -1,0 +1,292 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clear:after{
+	content: "";
+	height: 0;
+	display:block;
+	clear: both;
+}
+
+/* 头部样式 */
+.header-top {
+    height: 32px;
+    border-bottom: 1px solid rgba(218, 218, 218, 1);
+}
+
+.header-top ul{
+	float: right;
+	margin-right: 15px;
+}
+
+.in{
+	line-height: 32px;
+}
+
+.in a{
+	text-decoration: none;
+	color: black;
+}
+
+.in li {
+	list-style: none;
+    float: left;
+    margin-left: 27px;
+    background: no-repeat left center;
+}
+
+li.iphone {
+    padding-left: 15px;
+    background-image: url(images/iphone.png);
+}
+
+li.weixin {
+    padding-left: 23px;
+    background-image: url(images/weixin.png);
+}
+
+.in a:hover{
+	color: blue;
+}
+
+.header-bottom{
+	height: 60px;
+}
+
+img{
+	padding-left: 130px;
+	padding-top: 10px;
+	display: inline-block;
+}
+
+.container{
+	width: 400px;
+	height: 40px;
+	padding-left: 35px;
+	display: inline-block;
+}
+
+.container li{
+	float: left;
+	width: 80px;
+	height: 40px;
+	padding-top: 13px;
+	list-style: none;
+	text-align: center;
+}
+
+.container a{
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+}
+
+.container li:hover{
+	border-bottom: 2px solid orange;
+}
+
+.form{
+	margin-left: 85px;
+	display: inline-block;
+}
+
+.form * {
+    float: left;
+}
+
+.form .search {
+    width: 250px;
+    height: 11px;
+    border: 1px solid orange;
+    padding: 9px;
+}
+
+.form .submit {
+    width: 32px;
+    height: 32px;
+    border: 1px solid orange;
+    background: orange url(images/search.png) no-repeat center center;
+    cursor: pointer;
+}
+
+.banner{
+	height: 450px;
+	background: url(images/banner.png) no-repeat center center;
+	background-color: rgba(210,170,107);
+}
+
+.prouduct{
+	height: 1200px;
+	margin-bottom: 20px;
+}
+
+.prouduct .san{
+	height: 400px;
+}
+
+.classic
+{
+	height: 400px;
+}
+
+.product .other{
+	height: 400px;
+}
+
+.p-top{
+	height: 32px;
+	line-height: 32px;
+	padding-top: 10px;
+	font-size: 18px;
+	color: #494949;
+	padding-left: 108px;
+}
+
+.nav{
+	padding-left: 110px;
+	padding-top: 20px;
+	padding-right: 7px;
+}
+
+
+.na1{
+	width:220px;
+	height:100px;
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	top:220px;
+}
+
+.na2{
+	width:220px;
+	height:100px;
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	top:825px;
+}
+
+.line1{
+	line-height: 100px;
+	text-align: center;
+	color: rgba(255,255,255,0.8);
+}
+
+.sanin{
+	background: url(images/san.png) no-repeat;
+	display: inline-block;
+	height: 321px;
+	width: 220px;
+	margin-left: 20px;
+	position: relative;
+}
+
+.san1{
+	background: url(images/san1.png) no-repeat;
+	display: inline-block;
+	height: 321px;
+	width: 220px;
+	margin-left: 20px;
+}
+
+.san2{
+	background: url(images/san2.png) no-repeat;
+	display: inline-block;
+	height: 321px;
+	width: 220px;
+	margin-left: 20px;
+}
+
+.san3{
+	background: url(images/san3.png) no-repeat;
+	display: inline-block;
+	height: 321px;
+	width: 220px;
+	margin-left: 20px;
+}
+
+.classicin{
+	background: url(images/classical.png) no-repeat;
+	display: inline-block;
+	height: 321px;
+	width: 220px;
+	margin-left: 20px;
+	position: relative;
+}
+
+.classic1{
+	background: url(images/classical1.png) no-repeat;
+	display: inline-block;
+	height: 321px;
+	width: 220px;
+	margin-left: 20px;
+	position: relative;
+}
+
+.classic2{
+	background: url(images/classical2.png) no-repeat;
+	display: inline-block;
+	height: 321px;
+	width: 220px;
+	margin-left: 20px;
+	position: relative;
+}
+
+.classic3{
+	background: url(images/classical3.png) no-repeat;
+	display: inline-block;
+	height: 321px;
+	width: 220px;
+	margin-left: 20px;
+	position: relative;
+}
+
+.otherin{
+	background: url(images/other.png) no-repeat;	
+	display: inline-block;
+	height: 321px;
+	width: 220px;
+	margin-left: 20px;
+	position: relative;
+}
+
+.other1{
+	background: url(images/other1.png) no-repeat;
+	display: inline-block;
+	height: 321px;
+	width: 220px;
+	margin-left: 20px;
+	position: relative;	
+}
+
+.other2{
+	background: url(images/other2.png) no-repeat;
+	display: inline-block;
+	height: 321px;
+	width: 220px;
+	margin-left: 20px;
+	position: relative;	
+}
+
+.other3{
+	background: url(images/other3.png) no-repeat;	
+	display: inline-block;
+	height: 321px;
+	width: 220px;
+	margin-left: 20px;
+	position: relative;	
+}
+
+.bottom{
+    background-color:rgba(210,170,107);
+    height:120px;
+    width:100%;
+}
+
+.line{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 40px;
+}
+
